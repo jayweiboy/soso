@@ -13,6 +13,6 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
 
+git clone https://github.com/Lienol/openwrt/tree/19.07/package/lean/luci-app-unblockmusic
 git clone https://github.com/Lienol/openwrt/tree/19.07/package/lean/UnblockNeteaseMusicGo
-
 git clone https://github.com/Lienol/openwrt/tree/19.07/package/lean/UnblockNeteaseMusic
