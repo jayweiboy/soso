@@ -29,3 +29,6 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 [ -z $(grep "CONFIG_KERNEL_BUILD_DOMAIN=" .config) ] &&
     echo 'CONFIG_KERNEL_BUILD_DOMAIN="GitHub Actions"' >>.config ||
     sed -i 's@\(CONFIG_KERNEL_BUILD_DOMAIN=\).*@\1$"GitHub Actions"@' .config
+git clone https://github.com/Lienol/openwrt/tree/19.07/package/lean/luci-app-unblockmusic.git package/lean/luci-app-unblockmusic
+git clone https://github.com/Lienol/openwrt/tree/19.07/package/lean/UnblockNeteaseMusic.git package/lean/UnblockNeteaseMusic
+git clone https://github.com/Lienol/openwrt/tree/19.07/package/lean/UnblockNeteaseMusicGo.git package/lean/UnblockNeteaseMusicGo
