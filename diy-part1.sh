@@ -12,3 +12,5 @@
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 sed -i 's@coolsnowwolf/packages@P3TERX/packages@' feeds.conf.default
+
+git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
