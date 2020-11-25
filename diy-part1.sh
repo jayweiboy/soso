@@ -9,7 +9,6 @@
 #=============================================================
 
 # fw876/helloworld
-git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 
 sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
